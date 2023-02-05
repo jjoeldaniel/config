@@ -4,15 +4,23 @@ This is just a variation of [kickstart.nvim](https://github.com/nvim-lua/kicksta
 
 ---
 
-## How to use
+## Install
 
-### Install init.lua with curl
+### Linux/MacOS
 
-```bash
+```powershell
 curl -LJO https://github.com/jjoeldaniel/config/blob/main/nvim/init.lua -o ~/.config/nvim/init.lua
 ```
 
-### Run `:PackerInstall` to configure dependencies
+### Windows
+
+```powershell
+curl -LJO https://github.com/jjoeldaniel/config/blob/main/nvim/init.lua -o ~/AppData/Local/nvim/init.lua
+```
+
+### Configure Dependencies
+
+Run `:PackerInstall` to configure dependencies
 
 ## Dependencies
 
