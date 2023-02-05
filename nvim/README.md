@@ -9,13 +9,13 @@ This is just a variation of [kickstart.nvim](https://github.com/nvim-lua/kicksta
 ### Linux/MacOS
 
 ```powershell
-curl -LJO 'https://github.com/jjoeldaniel/config/blob/main/nvim/init.lua' -o ~/.config/nvim/init.lua
+curl -LJO 'https://raw.githubusercontent.com/jjoeldaniel/config/main/nvim/init.lua' -o ~/.config/nvim/init.lua
 ```
 
 ### Windows
 
 ```powershell
-curl -LJO 'https://github.com/jjoeldaniel/config/blob/main/nvim/init.lua' -o ~/AppData/Local/nvim/init.lua
+curl -LJO 'https://raw.githubusercontent.com/jjoeldaniel/config/main/nvim/init.lua' -o ~/AppData/Local/nvim/init.lua
 ```
 
 ### Configure Dependencies
