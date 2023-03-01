@@ -67,6 +67,12 @@ lvim.plugins = {
         require("project_nvim").setup{}
        end
      },
+     {
+       "simrat39/symbols-outline.nvim",
+       config = function()
+        require("symbols-outline").setup()
+       end
+     }
 }
 
 require('telescope').load_extension('projects')
