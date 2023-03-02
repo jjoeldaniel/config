@@ -8,7 +8,7 @@ an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
--- general
+
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
 lvim.colorscheme = "lunar"
@@ -21,9 +21,9 @@ lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["t"] = ":NvimTreeToggle<cr>"
-lvim.keys.normal_mode["h"] = ":HopChar1<cr>"
-lvim.keys.normal_mode["hh"] = ":HopChar2<cr>"
-lvim.keys.normal_mode["<S-H>"] = ":HopAnywhere<cr>"
+lvim.keys.normal_mode["s"] = ":HopChar1<cr>"
+lvim.keys.normal_mode["ss"] = ":HopChar2<cr>"
+lvim.keys.normal_mode["<S-S>"] = ":HopWord<cr>"
 lvim.keys.normal_mode["f"] = ":Telescope current_buffer_fuzzy_find<cr>"
 lvim.keys.normal_mode["<S-T>"] = ":ToggleTerm<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
@@ -87,8 +87,6 @@ lvim.plugins = {
     event = "BufRead",
     config = function()
       require("hop").setup()
-      vim.api.nvim_set_keymap("n", "s", ":HopChar2<cr>", { silent = true })
-      vim.api.nvim_set_keymap("n", "S", ":HopWord<cr>", { silent = true })
     end,
   },
   {"mrjones2014/nvim-ts-rainbow"},

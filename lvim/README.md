@@ -16,8 +16,8 @@ lvim.keys.normal_mode["<S-H>"] = ":HopChar2<cr>"
 | Keymap  | Description                           | Command                                | Mode   |
 | ------- | ------------------------------------- | -------------------------------------- | ------ |
 | `t`     | Open file tree                        | `:NvimTreeToggle`                      | Normal |
-| `h`     | Hop to a word using 1 character       | `:HopChar1`                            | Normal |
-| `hh`    | Hop to a word using 2 characters      | `:HopChar2`                            | Normal |
+| `s`     | Hop to a word using 1 character       | `:HopChar1`                            | Normal |
+| `ss`    | Hop to a word using 2 characters      | `:HopChar2`                            | Normal |
 | `<S-H>  | Hop anywhere                          | `:HopAnywhere`                         | Normal |
 | `f`     | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` | Normal |
 | `<S-T>` | Open a terminal in the current buffer | `:ToggleTerm`                          | Normal |
