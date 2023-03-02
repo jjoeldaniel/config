@@ -13,14 +13,14 @@ This is just [LunarVim](https://www.lunarvim.org/) + some extras so I dont lose 
 
 ## Custom Keymaps
 
-| Keymap  | Description                           | Command                                |
-| ------- | ------------------------------------- | -------------------------------------- |
-| `<C-s>` | Save File                             | `:w`                                   |
-| `t`     | Open file tree                        | `:NvimTreeToggle`                      |
-| `h`     | Hop to a word                         | `:HopAnywhere`                         |
-| `f`     | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` |
-| `<S-T>` | Open a terminal in the current buffer | `:ToggleTerm`                          |
-| `<S-O>` | Open symbols outline                  | `:SymbolsOutline`                      |
+| Keymap  | Description                           | Command                                | Mode   |
+| ------- | ------------------------------------- | -------------------------------------- | ------ |
+| `<C-s>` | Save File                             | `:w`                                   | Normal |
+| `t`     | Open file tree                        | `:NvimTreeToggle`                      | Normal |
+| `h`     | Hop to a word                         | `:HopAnywhere`                         | Normal |
+| `f`     | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` | Normal |
+| `<S-T>` | Open a terminal in the current buffer | `:ToggleTerm`                          | Normal |
+| `<S-O>` | Open symbols outline                  | `:SymbolsOutline`                      | Normal |
 
 ---
 
