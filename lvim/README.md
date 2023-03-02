@@ -18,11 +18,12 @@ lvim.keys.normal_mode["<S-H>"] = ":HopChar2<cr>"
 | `t`     | Open file tree                        | `:NvimTreeToggle`                      | Normal |
 | `s`     | Hop to a word using 1 character       | `:HopChar1`                            | Normal |
 | `ss`    | Hop to a word using 2 characters      | `:HopChar2`                            | Normal |
-| `<S-H>  | Hop anywhere                          | `:HopAnywhere`                         | Normal |
+| `<S-S>  | Hop to a word                         | `:HopWord`                             | Normal |
 | `f`     | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` | Normal |
 | `<S-T>` | Open a terminal in the current buffer | `:ToggleTerm`                          | Normal |
 | `<S-O>` | Open symbols outline                  | `:SymbolsOutline`                      | Normal |
 | `<C-s>` | Save File                             | `:w`                                   | Normal |
+| `<C-x>` | Save File and Exit                    | `:x`                                   | Normal |
 
 ---
 
