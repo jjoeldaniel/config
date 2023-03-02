@@ -26,7 +26,6 @@ lvim.keys.normal_mode["s"] = ":HopChar1<cr>"
 lvim.keys.normal_mode["ss"] = ":HopChar2<cr>"
 lvim.keys.normal_mode["<S-S>"] = ":HopWord<cr>"
 lvim.keys.normal_mode["f"] = ":Telescope current_buffer_fuzzy_find<cr>"
-lvim.keys.normal_mode["<S-T>"] = ":ToggleTerm<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
 lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
 
