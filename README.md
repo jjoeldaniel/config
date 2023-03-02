@@ -4,7 +4,7 @@ My personal config for various tools
 
 ## Table of Contents
 
-- [LunarVim](https://github.com/jjoeldaniel/config/tree/main/lvim])
+- [LunarVim](https://github.com/jjoeldaniel/config/tree/main/lvim)
 
 ---
 
