@@ -12,10 +12,9 @@ an executable
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
 lvim.colorscheme = "lunar"
-
--- more general settings
 vim.opt.clipboard = "unnamedplus" -- allows neovim to access the system clipboard
 vim.opt.ignorecase = true
+lvim.builtin.treesitter.rainbow.enable = true
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
@@ -89,6 +88,9 @@ lvim.plugins = {
       vim.api.nvim_set_keymap("n", "s", ":HopChar2<cr>", { silent = true })
       vim.api.nvim_set_keymap("n", "S", ":HopWord<cr>", { silent = true })
     end,
+  },
+  {
+  "mrjones2014/nvim-ts-rainbow",
   },
 }
 
