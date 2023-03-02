@@ -21,7 +21,8 @@ lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["t"] = ":NvimTreeToggle<cr>"
-lvim.keys.normal_mode["h"] = ":HopAnywhere<cr>"
+lvim.keys.normal_mode["h"] = ":HopChar1<cr>"
+lvim.keys.normal_mode["<S-H>"] = ":HopChar2<cr>"
 lvim.keys.normal_mode["f"] = ":Telescope current_buffer_fuzzy_find<cr>"
 lvim.keys.normal_mode["<S-T>"] = ":ToggleTerm<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
@@ -89,9 +90,7 @@ lvim.plugins = {
       vim.api.nvim_set_keymap("n", "S", ":HopWord<cr>", { silent = true })
     end,
   },
-  {
-  "mrjones2014/nvim-ts-rainbow",
-  },
+  {"mrjones2014/nvim-ts-rainbow"},
 }
 
 require('telescope').load_extension('projects')
