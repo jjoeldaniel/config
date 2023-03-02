@@ -26,6 +26,7 @@ lvim.keys.normal_mode["h"] = ":HopAnywhere<cr>"
 lvim.keys.normal_mode["f"] = ":Telescope current_buffer_fuzzy_find<cr>"
 lvim.keys.normal_mode["<S-T>"] = ":ToggleTerm<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
+lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
 
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
