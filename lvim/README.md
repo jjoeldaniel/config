@@ -1,6 +1,6 @@
 # LunarVim Config
 
-This is just LunarVim + some extras so I dont lose my sanity.
+This is just [LunarVim](https://www.lunarvim.org/) + some extras so I dont lose my sanity.
 
 ## Added Plugins
 
@@ -11,7 +11,17 @@ This is just LunarVim + some extras so I dont lose my sanity.
 - [symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim)
 - [hop.nvim](https://github.com/phaazon/hop.nvim)
 
-## update.sh
+## Custom Keymaps
 
-This is a short script that will pull config changes from /lvim/
-so I can easily update this repo.
+| Keymap  | Description                           | Command                                |
+| ------- | ------------------------------------- | -------------------------------------- |
+| `<C-s>` | Save File                             | `:w`                                   |
+| `t`     | Open file tree                        | `:NvimTreeToggle`                      |
+| `h`     | Hop to a word                         | `:HopAnywhere`                         |
+| `f`     | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` |
+| `<S-T>` | Open a terminal in the current buffer | `:ToggleTerm`                          |
+| `<S-O>` | Open symbols outline                  | `:SymbolsOutline`                      |
+
+---
+
+Created with 💖 by [*jjoeldaniel*](https://github.com/jjoeldaniel)
