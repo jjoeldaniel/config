@@ -20,6 +20,7 @@ lvim.builtin.treesitter.rainbow.enable = true
 lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+lvim.keys.normal_mode["<C-x>"] = ":x<cr>"
 lvim.keys.normal_mode["t"] = ":NvimTreeToggle<cr>"
 lvim.keys.normal_mode["s"] = ":HopChar1<cr>"
 lvim.keys.normal_mode["ss"] = ":HopChar2<cr>"
@@ -29,7 +30,6 @@ lvim.keys.normal_mode["<S-T>"] = ":ToggleTerm<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
 lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
 
--- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
