@@ -10,3 +10,8 @@ This is just LunarVim + some extras so I dont lose my sanity.
 - [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim)
 - [symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim)
 - [hop.nvim](https://github.com/phaazon/hop.nvim)
+
+## update.sh
+
+This is a short script that will pull config changes from /lvim/
+so I can easily update this repo.
