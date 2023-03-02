@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if diff "./config.lua" "/home/$USER/.config/lvim" >/dev/null ; then
   echo "No difference found"
 else

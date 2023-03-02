@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git pull --quiet
 
 if diff "./config.lua" "/home/$USER/.config/lvim/config.lua" >/dev/null ; then
