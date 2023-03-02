@@ -18,7 +18,6 @@ This is just [LunarVim](https://www.lunarvim.org/) + some extras so I dont lose 
 | `ss`    | Hop to a word using 2 characters      | `:HopChar2`                            | Normal |
 | `<S-S>` | Hop to a word                         | `:HopWord`                             | Normal |
 | `f`     | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` | Normal |
-| `<S-T>` | Open a terminal in the current buffer | `:ToggleTerm`                          | Normal |
 | `<S-O>` | Open symbols outline                  | `:SymbolsOutline`                      | Normal |
 | `<C-s>` | Save File                             | `:w`                                   | Normal |
 | `<C-x>` | Save File and Exit                    | `w`                                   | Normal |
