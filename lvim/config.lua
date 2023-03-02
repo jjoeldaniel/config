@@ -22,7 +22,7 @@ lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["t"] = ":NvimTreeToggle<cr>"
-lvim.keys.normal_mode["h"] = ":HopWord<cr>"
+lvim.keys.normal_mode["h"] = ":HopAnywhere<cr>"
 lvim.keys.normal_mode["f"] = ":Telescope current_buffer_fuzzy_find<cr>"
 lvim.keys.normal_mode["<S-T>"] = ":ToggleTerm<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
