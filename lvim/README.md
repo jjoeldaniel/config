@@ -4,12 +4,10 @@ This is just [LunarVim](https://www.lunarvim.org/) + some extras so I dont lose 
 
 ## Added Plugins
 
-- [trouble.nvim](https://github.com/folke/trouble.nvim)
-- [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
-- [project.nvim](https://github.com/ahmedkhalf/project.nvim)
 - [neoscroll.nvim](https://github.com/karb94/neoscroll.nvim)
 - [symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim)
 - [hop.nvim](https://github.com/phaazon/hop.nvim)
+- [nvim-ts-rainbow](https://github.com/mrjones2014/nvim-ts-rainbow)
 
 ## Custom Keymaps
 
