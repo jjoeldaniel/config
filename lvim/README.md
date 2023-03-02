@@ -10,8 +10,6 @@ This is just [LunarVim](https://www.lunarvim.org/) + some extras so I dont lose 
 - [nvim-ts-rainbow](https://github.com/mrjones2014/nvim-ts-rainbow)
 
 ## Custom Keymaps
-lvim.keys.normal_mode["h"] = ":HopChar1<cr>"
-lvim.keys.normal_mode["<S-H>"] = ":HopChar2<cr>"
 
 | Keymap  | Description                           | Command                                | Mode   |
 | ------- | ------------------------------------- | -------------------------------------- | ------ |
