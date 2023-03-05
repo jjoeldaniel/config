@@ -8,7 +8,7 @@ an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
-
+-- general settings
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
 lvim.colorscheme = "lunar"
@@ -18,20 +18,28 @@ lvim.builtin.treesitter.rainbow.enable = true
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
--- add your own keymapping
+
+--  save/exit
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["<C-x>"] = ":x<cr>"
+lvim.keys.normal_mode["<C-q"] = ":q!<cr>"
+
+-- ui
 lvim.keys.normal_mode["<S-T>"] = ":NvimTreeToggle<cr>"
+lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
+lvim.keys.normal_mode["<S-F>"] = ":Telescope current_buffer_fuzzy_find<cr>"
+lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
+
+-- hop
 lvim.keys.normal_mode["h"] = ":HopChar1<cr>"
 lvim.keys.normal_mode["hh"] = ":HopChar2<cr>"
 lvim.keys.normal_mode["<S-H>"] = ":HopWord<cr>"
-lvim.keys.normal_mode["<S-F>"] = ":Telescope current_buffer_fuzzy_find<cr>"
-lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
-lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
 
+-- neoscroll
 lvim.keys.normal_mode["s"] = "<cmd>lua require('neoscroll').scroll(10, true, 250)<cr>"
 lvim.keys.normal_mode["w"] = "<cmd>lua require('neoscroll').scroll(-10, true, 250)<cr>"
 
+-- extra settings
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
