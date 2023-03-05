@@ -22,12 +22,15 @@ lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["<C-x>"] = ":x<cr>"
 lvim.keys.normal_mode["t"] = ":NvimTreeToggle<cr>"
-lvim.keys.normal_mode["s"] = ":HopChar1<cr>"
-lvim.keys.normal_mode["ss"] = ":HopChar2<cr>"
-lvim.keys.normal_mode["<S-S>"] = ":HopWord<cr>"
+lvim.keys.normal_mode["h"] = ":HopChar1<cr>"
+lvim.keys.normal_mode["hh"] = ":HopChar2<cr>"
+lvim.keys.normal_mode["<S-H>"] = ":HopWord<cr>"
 lvim.keys.normal_mode["f"] = ":Telescope current_buffer_fuzzy_find<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
 lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
+
+lvim.keys.normal_mode["w"] = "<cmd>lua require('neoscroll').scroll(10, true, 250)<cr>"
+lvim.keys.normal_mode["s"] = "<cmd>lua require('neoscroll').scroll(-10, true, 250)<cr>"
 
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
@@ -61,7 +64,7 @@ lvim.plugins = {
     event = "WinScrolled",
     config = function()
       require('neoscroll').setup({
-        -- All these keys will be mapped to their corresponding default scrolling animation
+        -- All these keys wi
         mappings = { '<C-u>', '<C-d>', '<C-b>', '<C-f>',
           '<C-y>', '<C-e>', 'zt', 'zz', 'zb' },
         hide_cursor = true,            -- Hide cursor while scrolling
