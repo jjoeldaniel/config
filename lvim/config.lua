@@ -29,8 +29,8 @@ lvim.keys.normal_mode["f"] = ":Telescope current_buffer_fuzzy_find<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
 lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
 
-lvim.keys.normal_mode["w"] = "<cmd>lua require('neoscroll').scroll(10, true, 250)<cr>"
-lvim.keys.normal_mode["s"] = "<cmd>lua require('neoscroll').scroll(-10, true, 250)<cr>"
+lvim.keys.normal_mode["s"] = "<cmd>lua require('neoscroll').scroll(10, true, 250)<cr>"
+lvim.keys.normal_mode["w"] = "<cmd>lua require('neoscroll').scroll(-10, true, 250)<cr>"
 
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
