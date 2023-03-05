@@ -21,11 +21,11 @@ lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["<C-x>"] = ":x<cr>"
-lvim.keys.normal_mode["t"] = ":NvimTreeToggle<cr>"
+lvim.keys.normal_mode["<S-T>"] = ":NvimTreeToggle<cr>"
 lvim.keys.normal_mode["h"] = ":HopChar1<cr>"
 lvim.keys.normal_mode["hh"] = ":HopChar2<cr>"
 lvim.keys.normal_mode["<S-H>"] = ":HopWord<cr>"
-lvim.keys.normal_mode["f"] = ":Telescope current_buffer_fuzzy_find<cr>"
+lvim.keys.normal_mode["<S-F>"] = ":Telescope current_buffer_fuzzy_find<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
 lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
 
