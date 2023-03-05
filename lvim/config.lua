@@ -33,7 +33,8 @@ lvim.keys.normal_mode["<S-P>"] = ":Telescope projects<cr>"
 -- hop
 lvim.keys.normal_mode["h"] = ":HopChar1<cr>"
 lvim.keys.normal_mode["hh"] = ":HopChar2<cr>"
-lvim.keys.normal_mode["<S-H>"] = ":HopWord<cr>"
+lvim.keys.normal_mode["hhh"] = ":HopWord<cr>"
+lvim.keys.normal_mode["<S-H>"] = ":HopAnywhere<cr>"
 
 -- neoscroll
 lvim.keys.normal_mode["s"] = "<cmd>lua require('neoscroll').scroll(10, true, 250)<cr>"
