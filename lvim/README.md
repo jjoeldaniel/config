@@ -8,19 +8,23 @@ This is just [LunarVim](https://www.lunarvim.org/) + some extras so I dont lose 
 - [symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim)
 - [hop.nvim](https://github.com/phaazon/hop.nvim)
 - [nvim-ts-rainbow](https://github.com/mrjones2014/nvim-ts-rainbow)
+- [numb.nvim](https://github.com/nacro90/numb.nvim)
 
 ## Custom Keymaps
 
 | Keymap  | Description                           | Command                                | Mode   |
 | ------- | ------------------------------------- | -------------------------------------- | ------ |
-| `t`     | Open file tree                        | `:NvimTreeToggle`                      | Normal |
-| `s`     | Hop to a word using 1 character       | `:HopChar1`                            | Normal |
-| `ss`    | Hop to a word using 2 characters      | `:HopChar2`                            | Normal |
-| `<S-S>` | Hop to a word                         | `:HopWord`                             | Normal |
-| `f`     | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` | Normal |
+| `h`     | Hop to a word using 1 character       | `:HopChar1`                            | Normal |
+| `hh`    | Hop to a word using 2 characters      | `:HopChar2`                            | Normal |
+| `hhh`   | Hop to a word                         | `:HopWord`                             | Normal |
+| `<S-T>` | Open file tree                        | `:NvimTreeToggle`                      | Normal |
+| `<S-H>` | Hop anywhere                          | `:HopAnywhere`                         | Normal |
+| `<S-F>` | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` | Normal |
 | `<S-O>` | Open symbols outline                  | `:SymbolsOutline`                      | Normal |
 | `<C-s>` | Save File                             | `:w`                                   | Normal |
-| `<C-x>` | Save File and Exit                    | `w`                                   | Normal |
+| `<C-x>` | Save File and Exit                    | `:x`                                   | Normal |
+| `w`     | Scroll up                             | N\A                                    | Normal |
+| `s`     | Scroll down                           | N\A                                    | Normal |
 
 ---
 
