@@ -23,6 +23,10 @@ lvim.leader = "space"
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["<C-x>"] = ":x<cr>"
 
+-- mini.map
+lvim.keys.normal_mode["<S-M><S-M>"] = "<cmd> lua require('mini.map').toggle()<cr>"
+lvim.keys.normal_mode["<S-M>"] = "<cmd>lua require('mini.map').toggle_focus()<cr>"
+
 -- ui
 lvim.keys.normal_mode["<S-T>"] = ":NvimTreeToggle<cr>"
 lvim.keys.normal_mode["<S-O>"] = ":SymbolsOutline<cr>"
@@ -71,6 +75,12 @@ lvim.plugins = {
     'karb94/neoscroll.nvim',
     config = function()
       require('neoscroll').setup()
+    end
+  },
+  {
+    'echasnovski/mini.map',
+    config = function()
+      require('mini.map').setup()
     end
   },
   {
