@@ -18,14 +18,14 @@ This is just [LunarVim](https://www.lunarvim.org/) + some extras so I dont lose 
 | `h`          | Hop to a word using 1 character       | `:HopChar1`                            | Normal |
 | `hh`         | Hop to a word using 2 characters      | `:HopChar2`                            | Normal |
 | `hhh`        | Hop to a word                         | `:HopWord`                             | Normal |
+| `w`          | Scroll up                             | `neoscroll.scroll(-10, true, 250)`     | Normal |
+| `s`          | Scroll down                           | `neoscroll.scroll(10, true, 250)`      | Normal |
 | `<S-T>`      | Open file tree                        | `:NvimTreeToggle`                      | Normal |
 | `<S-H>`      | Hop anywhere                          | `:HopAnywhere`                         | Normal |
 | `<S-F>`      | Fuzzy Search                          | `:Telescope current_buffer_fuzzy_find` | Normal |
 | `<S-O>`      | Open symbols outline                  | `:SymbolsOutline`                      | Normal |
 | `<C-s>`      | Save File                             | `:w`                                   | Normal |
 | `<C-x>`      | Save File and Exit                    | `:x`                                   | Normal |
-| `w`          | Scroll up                             | `neoscroll.scroll(-10, true, 250)`     | Normal |
-| `s`          | Scroll down                           | `neoscroll.scroll(10, true, 250)`      | Normal |
 | `<S-M><S-M>` | Toggle mini.map                       | `MiniMap.toggle()`                     | Normal |
 | `<S-M>`      | Focus mini.map                        | `MiniMap.toggle_focus()`               | Normal |
 
