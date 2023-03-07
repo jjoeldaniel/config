@@ -7,8 +7,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) for more de
 ## Installation
 
 ```terminal
-mkdir -p ~/.config/nvim
-curl -sSL "https://github.com/jjoeldaniel/config/archive/main.tar.gz" | tar -xz --strip-components=2 -C ~/.config/nvim config-main/nvim/
+mkdir -p ~/.config/nvim && curl -sSL "https://github.com/jjoeldaniel/config/archive/main.tar.gz" | tar -xz --strip-components=2 -C ~/.config/nvim config-main/nvim/
 ```
 
 ## Dependencies
