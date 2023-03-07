@@ -1,6 +1,7 @@
 # 💤 LazyVim
 
-Joel's [LazyVim](https://github.com/LazyVim/LazyVim) config
+Joel's [LazyVim](https://github.com/LazyVim/LazyVim) config.
+
 Refer to the [documentation](https://lazyvim.github.io/installation) for more details.
 
 ## Installation
