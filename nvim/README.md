@@ -12,7 +12,7 @@ curl -sSL "https://github.com/jjoeldaniel/config/archive/main.tar.gz" | tar -xz 
 
 ## Missing Neovim?
 
-I recommend installing with brew
+I recommend installing with [brew](https://brew.sh/)
 
 ```terminal
 brew install neovim
