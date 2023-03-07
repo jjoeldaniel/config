@@ -12,7 +12,13 @@ return {
     keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
     config = true,
   },
-  { "akinsho/toggleterm.nvim", version = "*", config = true },
+  {
+    "akinsho/toggleterm.nvim",
+    version = "*",
+    config = function()
+      require("toggleterm").setup()
+    end,
+  },
   {
     "telescope.nvim",
     dependencies = {

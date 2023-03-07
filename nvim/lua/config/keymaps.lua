@@ -12,6 +12,10 @@ vim.api.nvim_set_keymap("n", "h", ":HopChar1<cr>", {})
 vim.api.nvim_set_keymap("n", "hh", ":HopChar1<cr>", {})
 vim.api.nvim_set_keymap("n", "<S-H>", ":HopWord<cr>", {})
 
+-- terminal
+vim.api.nvim_set_keymap("n", "<C-t>", ":ToggleTerm<cr>", {})
+vim.api.nvim_set_keymap("t", "<C-t>", "<esc><esc>:ToggleTerm<cr>", {})
+
 --- minimap
 vim.api.nvim_set_keymap("n", "<S-M>", ":MinimapToggle<cr>", {})
 
