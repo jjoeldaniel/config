@@ -43,7 +43,6 @@ return {
       require("hop").setup()
     end,
   },
-  { "mrjones2014/nvim-ts-rainbow" },
   {
     "nacro90/numb.nvim",
     event = "BufRead",
