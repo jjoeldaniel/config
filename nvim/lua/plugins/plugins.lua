@@ -67,19 +67,16 @@ return {
     end,
   },
   {
-    "telescope.nvim",
-    dependencies = {
-      "nvim-telescope/telescope-project.nvim",
-      build = "make",
-      config = function()
-        require("telescope").load_extension("project")
-      end,
-    },
+    "ahmedkhalf/project.nvim",
+    config = function()
+      require("project_nvim").setup()
+    end,
   },
   {
     "karb94/neoscroll.nvim",
     config = function()
       require("neoscroll").setup()
+      require("telescope").load_extension("projects")
     end,
   },
   { "wfxr/minimap.vim" },
