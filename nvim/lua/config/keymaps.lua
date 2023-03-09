@@ -7,6 +7,9 @@ vim.api.nvim_set_keymap("n", "<S-O>", ":SymbolsOutline<cr>", {})
 vim.api.nvim_set_keymap("n", "<S-F>", ":Telescope current_buffer_fuzzy_find<cr>", {})
 vim.api.nvim_set_keymap("n", "<S-P>", ":Telescope project<cr>", {})
 
+-- visual mode keymap to select individual character
+vim.api.nvim_set_keymap("n", "vv", "vhl", {})
+
 -- hop
 vim.api.nvim_set_keymap("n", "h", ":HopChar1<cr>", {})
 vim.api.nvim_set_keymap("n", "hh", ":HopChar1<cr>", {})
