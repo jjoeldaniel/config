@@ -10,3 +10,13 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 
 # download and move config into ~/.config/nvim
 mkdir -p ~/.config/nvim && curl -sSL "https://github.com/jjoeldaniel/config/archive/main.tar.gz" | tar -xz --strip-components=2 -C ~/.config/nvim config-main/nvim/
+
+# install cargo dependency
+cargo install code-minimap
+
+echo  "
+ =========================
+| Joel's Neovim           |
+| Setup Script            |
+ =========================
+"
