@@ -1,9 +1,12 @@
 #!/bin/bash
 
-# required
+# delete old backup
+rm -rf ~/.config/nvim.bak
+
+# backup current nvim directory
 mv ~/.config/nvim ~/.config/nvim.bak
 
-# optional but recommended
+# backup misc
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
@@ -14,6 +17,7 @@ mkdir -p ~/.config/nvim && curl -sSL "https://github.com/jjoeldaniel/config/arch
 # install cargo dependency
 cargo install code-minimap
 
+# pretty message :)
 echo  "
  =========================
 | Joel's Neovim           |
