@@ -12,7 +12,7 @@ vim.api.nvim_set_keymap("n", "vv", "vhl", {})
 
 -- hop
 vim.api.nvim_set_keymap("n", "h", ":HopChar1<cr>", {})
-vim.api.nvim_set_keymap("n", "hh", ":HopChar1<cr>", {})
+vim.api.nvim_set_keymap("n", "hh", ":HopChar2<cr>", {})
 vim.api.nvim_set_keymap("n", "<S-H>", ":HopWord<cr>", {})
 
 -- terminal
