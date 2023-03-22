@@ -1,8 +1,8 @@
 # 💤 LazyVim
 
-Joel's [LazyVim](https://github.com/LazyVim/LazyVim) config.
+Joel's [LazyVim](https://github.com/folke/lazy.nvim) config.
 
-Refer to the [documentation](https://lazyvim.github.io/installation) for more details.
+Refer to the lazyvim [documentation](https://github.com/folke/lazy.nvim/blob/main/doc/lazy.nvim.txt) for more details. I also use [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) as a template.
 
 ## Installation
 
