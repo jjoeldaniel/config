@@ -19,9 +19,6 @@ vim.api.nvim_set_keymap("n", "<S-H>", ":HopWord<cr>", {})
 vim.api.nvim_set_keymap("n", "<C-Bslash>", ":ToggleTerm<cr>", {})
 vim.api.nvim_set_keymap("t", "<C-Bslash>", "<esc><esc>:ToggleTerm<cr>", {})
 
---- minimap
-vim.api.nvim_set_keymap("n", "<S-M>", ":MinimapToggle<cr>", {})
-
 -- neoscroll
 vim.api.nvim_set_keymap("n", "w", "<cmd>lua require('neoscroll').scroll(-10, true, 250)<cr>", {})
 vim.api.nvim_set_keymap("n", "s", "<cmd>lua require('neoscroll').scroll(10, true, 250)<cr>", {})

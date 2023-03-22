@@ -79,7 +79,6 @@ return {
       require("telescope").load_extension("projects")
     end,
   },
-  { "wfxr/minimap.vim" },
   {
     "phaazon/hop.nvim",
     event = "BufRead",
