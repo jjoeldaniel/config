@@ -22,6 +22,16 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 ```terminal
 mkdir -p ~/.config/nvim && curl -sSL "https://github.com/jjoeldaniel/config/archive/main.tar.gz" | tar -xz --strip-components=2 -C ~/.config/nvim config-main/nvim/
 ```
+
+## Alternatively, clone the repo and run the setup script
+
+```terminal
+git clone https://github.com/jjoeldaniel/config.git
+chmod +x ./config/nvim/setup.sh
+./config/nvim/setup.sh
+```
+
+
 ## Missing Neovim?
 
 I recommend installing with [brew](https://brew.sh/)
