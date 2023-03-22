@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# delete old backup
+# delete old backups
 rm -rf ~/.config/nvim.bak
+rm -rf ~/.local/share/nvim.bak
+rm -rf ~/.local/state/nvim.bak
+rm -rf ~/.cache/nvim.bak
 
 # backup current nvim directory
 mv ~/.config/nvim ~/.config/nvim.bak
