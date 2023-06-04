@@ -4,8 +4,8 @@ My personal config for various tools
 
 ## Table of Contents
 
-- [Neovim](https://github.com/jjoeldaniel/config/tree/main/nvim)
-- [LunarVim](https://github.com/jjoeldaniel/config/tree/main/lvim)
+- [Fish](https://github.com/fish-shell/fish-shell)
+- [NeoVim](https://github.com/jjoeldaniel/kickstart.nvim/)
 
 ---
 
