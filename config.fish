@@ -3,7 +3,10 @@ if status is-interactive
     set PATH $PATH ~/.cargo/bin
     starship init fish | source
 
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
     # aliases
     alias cat="bat --theme OneHalfDark -p"
     alias tree="exa -T -L"
+    alias v="nvim"
 end
